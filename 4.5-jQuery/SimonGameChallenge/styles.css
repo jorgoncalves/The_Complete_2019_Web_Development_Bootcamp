@@ -1,0 +1,69 @@
+body {
+  background-color: #011F3F;
+  text-align: center;
+}
+
+#level-title {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.btn {
+  border: 10px solid black;
+  border-radius: 20%;
+  display: inline-block;
+  height: 200px;
+  margin: 25px;
+  width: 200px;
+}
+
+.mobile-reset {
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 20%;
+  left: 0;
+  margin-left: 3%;
+  position: absolute;
+  text-align: center;
+  visibility: visible;
+}
+
+@media (min-width: 1028px) {
+  .mobile-reset {
+    visibility: hidden;
+  }
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  background-color: grey;
+  box-shadow: 0 0 20px white;
+}
